@@ -31,8 +31,8 @@ menu = '''\033[0m
     {0}--INSTALL & UPDATE
     {99}-Exit                                                                                                                   
  '''
-print logo
-print menu
+       print logo
+      print menu
 def quit():
             con = raw_input('Continue [Y/n] -> ')
             if con[0].upper() == 'N':
